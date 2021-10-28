@@ -6,7 +6,7 @@ function PostItem(props, remove) {
     <div className="post">
       <div className="post__content">
         <strong>
-          {props.number}, {props.post.title}
+          {props.post.id}, {props.post.title}
           <div>{props.post.body}</div>
         </strong>
       </div>
